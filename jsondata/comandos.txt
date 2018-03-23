@@ -1,0 +1,3 @@
+$ # cria banco de dados vazio dbtemp
+$ mysql -h localhost -u root -p'' dbtemp < estados.sql 
+$ mysql -h localhost -u root -p'' dbtemp < cidades.sql
